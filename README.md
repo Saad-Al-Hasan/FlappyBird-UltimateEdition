@@ -169,5 +169,8 @@ Developed as a university project assignment demonstrating advanced frontend dev
 
 
 
+
+
+
 📜 License
 This project was developed for educational purposes.
