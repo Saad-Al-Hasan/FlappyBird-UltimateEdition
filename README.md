@@ -81,6 +81,7 @@ Track:
 
 🎵 Dynamic Music System
 Each theme contains its own background music:
+- Homepage Music
 - Day Theme Music
 - Night Theme Music
 - Space Theme Music
@@ -164,9 +165,6 @@ FlappyBird-UltimateEdition/
 
 👨‍💻 Author
 Md. Saad Al Hasan
-
-Developed as a university project assignment demonstrating advanced frontend development concepts using HTML, CSS, and JavaScript.
-
 
 
 📜 License

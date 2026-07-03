@@ -12,6 +12,14 @@
   UI.bindNav();
   UI.showScreen("start");
 
+  document.addEventListener(
+    "click",
+    () => {
+      AudioFX.startMenuMusic();
+    },
+    { once: true }
+  );
+
   // --- wire game callbacks ---
   game.onScoreChange = (score) => UI.updateHud(game);
   game.onCoinChange = (coins) => UI.updateHud(game);
@@ -50,6 +58,7 @@
   });
 
   function beginRun() {
+    AudioFX.stopMenuMusic();
     game.configure(Storage.data.selectedBird, Storage.data.selectedTheme, UI.selectedDifficulty);
     document.body.className = "theme-" + Storage.data.selectedTheme;
     game.reset();
@@ -71,6 +80,10 @@
   });
   document.getElementById("menuBtn").addEventListener("click", () => {
     AudioFX.click();
+
+    AudioFX.stopMusic();
+    AudioFX.startMenuMusic();
+
     UI.showScreen("start");
   });
 
@@ -89,9 +102,13 @@
   });
   document.getElementById("quitBtn").addEventListener("click", () => {
     AudioFX.click();
+
     AudioFX.stopMusic();
+    AudioFX.startMenuMusic();
+
     canvas.classList.add("hidden");
     document.getElementById("hud").classList.add("hidden");
+
     UI.showScreen("start");
   });
 

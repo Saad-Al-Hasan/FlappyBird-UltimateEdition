@@ -2,6 +2,7 @@
 
 const AudioFX = {
   bgMusic: null,
+  menuMusic: null,
   currentTheme: null,
   ctx: null,
   musicEnabled: true,
@@ -110,15 +111,43 @@ const AudioFX = {
     this.bgMusic.play().catch(() => { });
   },
 
-stopMusic() {
+  stopMusic() {
 
     if (this.bgMusic) {
 
-        this.bgMusic.pause();
-        this.bgMusic.currentTime = 0;
-        this.bgMusic = null;
+      this.bgMusic.pause();
+      this.bgMusic.currentTime = 0;
+      this.bgMusic = null;
     }
-},
+  },
+
+  startMenuMusic() {
+
+    if (!this.musicEnabled)
+      return;
+
+    if (!this.menuMusic) {
+
+      this.menuMusic =
+        new Audio(
+          "assets/music/menu.mp3"
+        );
+
+      this.menuMusic.loop = true;
+      this.menuMusic.volume = 0.35;
+    }
+
+    this.menuMusic.play().catch(() => { });
+  },
+
+  stopMenuMusic() {
+
+    if (this.menuMusic) {
+
+      this.menuMusic.pause();
+      this.menuMusic.currentTime = 0;
+    }
+  },
 
   toggleMusic() {
     this.musicEnabled = !this.musicEnabled;
