@@ -145,6 +145,11 @@ FlappyBird-UltimateEdition/
 |
 ├── assets/
 │   ├── music/
+|         ├── menu.mp3
+|         ├── day.mp3
+|         ├── night.mp3
+|         ├── space.mp3
+|         ├── underwater.mp3
 │   ├── homepage_background.png
 ```
 
