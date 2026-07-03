@@ -13,6 +13,7 @@ https://saad-al-hasan.github.io/FlappyBird-UltimateEdition/
 https://github.com/Saad-Al-Hasan/FlappyBird-UltimateEdition
 
 
+
 ✨ Features:
 🐦 Multiple Playable Birds
 - Sparrow
@@ -21,6 +22,7 @@ https://github.com/Saad-Al-Hasan/FlappyBird-UltimateEdition
 - Dragon
 
 Each bird has its own unique appearance and design.
+
 
 
 🌎 Multiple Themes
@@ -35,6 +37,7 @@ Each theme includes:
 - Dedicated background music
 
 
+
 🛒 Shop System
 Players can spend collected coins to unlock:
 - New birds
@@ -42,9 +45,11 @@ Players can spend collected coins to unlock:
 - Special content
 
 
+
 🪙 Coin System
 - Collect coins during gameplay
 - Use coins to purchase unlockable content
+
 
 
 ⚡ Power-Ups
@@ -58,8 +63,10 @@ The game features several power-ups:
 | 🐌 Slow Motion   | Temporarily slows down the game |
 
 
+
 🏆 Achievement System
 Unlock achievements by completing various in-game challenges and milestones.
+
 
 
 📊 Statistics System
@@ -71,6 +78,7 @@ Track:
 - Achievement Progress
 
 
+
 🎵 Dynamic Music System
 Each theme contains its own background music:
 - Day Theme Music
@@ -79,8 +87,10 @@ Each theme contains its own background music:
 - Underwater Theme Music
 
 
+
 🎯 Progressive Difficulty
 The game difficulty automatically increases as the player's score increases.
+
 
 
 🎮 How To Play
@@ -94,6 +104,7 @@ The game difficulty automatically increases as the player's score increases.
 | Navigate Menus | Mouse |
 
 
+
 Gameplay Rules:
 1. Press **SPACE** or click to make the bird fly.
 2. Avoid colliding with pipes and obstacles.
@@ -103,12 +114,14 @@ Gameplay Rules:
 6. Unlock all birds, themes, and achievements.
 
 
+
 🛠 Technologies Used
 - HTML5
 - CSS3
 - JavaScript (ES6)
 - HTML5 Canvas API
 - Local Storage API
+
 
 
 📁 Project Structure
@@ -135,6 +148,7 @@ FlappyBird-UltimateEdition/
 ```
 
 
+
 💡 Project Highlights:
 - Pure HTML, CSS, and JavaScript implementation
 - No external game engine used
@@ -147,10 +161,12 @@ FlappyBird-UltimateEdition/
 - Responsive user interface
 
 
+
 👨‍💻 Author
 Md. Saad Al Hasan
 
 Developed as a university project assignment demonstrating advanced frontend development concepts using HTML, CSS, and JavaScript.
+
 
 
 📜 License
