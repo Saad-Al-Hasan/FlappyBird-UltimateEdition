@@ -28,7 +28,7 @@ Each bird has its own unique appearance and design.
 🌎 Multiple Themes
 - ☀️ Day
 - 🌙 Night
-- 🚀 Space
+- 🪐 Space
 - 🌊 Underwater
 
 Each theme includes:
