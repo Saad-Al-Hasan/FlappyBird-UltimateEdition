@@ -1,4 +1,4 @@
-🐦 Flappy Bird: Ultimate Edition
+🦅 Flappy Bird: Ultimate Edition
 
 A modern and feature-rich recreation of the classic Flappy Bird game developed entirely using **HTML5, CSS3, and JavaScript**, featuring multiple themes, unlockable birds, power-ups, achievements, and dynamic gameplay.
 
@@ -15,7 +15,7 @@ https://github.com/Saad-Al-Hasan/FlappyBird-UltimateEdition
 
 
 ✨ Features:
-🐦 Multiple Playable Birds
+🦅 Multiple Playable Birds
 - Sparrow
 - Parrot
 - Eagle
